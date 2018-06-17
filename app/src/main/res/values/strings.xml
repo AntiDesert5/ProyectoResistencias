@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Circuitos</string>
+    <string name="resistencia">Resistencias en Serie</string>
+    <string name="IngR1">Ingrese Valor</string>
+    <string name="No">No 1</string>
+    <string name="agregar">Agregar</string>
+    <string name="resultado">Resultado</string>
+    <string name="eliminar">Eliminar</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.axelyray.circuitos.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/Padre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/b1RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resistencia"/>
+            <TableLayout
+                android:id="@+id/Tabla1_0"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="2"
+                >
+            </TableLayout>
+            <Button
+                android:id="@+id/B1_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/agregar"
+                android:layout_margin="18dp"/>
+            <EditText
+                android:id="@+id/Res"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resultado"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/elim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eliminar"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</ScrollView>
